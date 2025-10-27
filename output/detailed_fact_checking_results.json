@@ -1,0 +1,515 @@
+[
+  {
+    "Statement": "```json\n[\n  {\n    \"sentence_number\": 1,\n    \"original_statement\": \"Cancer has emerged as a leading cause of death worldwide, with NCDs accounting for 72% of all deaths globally in 2016",
+    "Assertion": "```json\n[\n  {\n    \"sentence_number\": 1,\n    \"original_statement\": \"Cancer has emerged as a leading c...",
+    "Summary (Tavily Answer)": "Cancer is a major cause of death globally, with non-communicable diseases (NCDs) responsible for 72% of all deaths in 2016. Cardiovascular diseases, cancers, respiratory diseases, and diabetes are the leading NCDs. In 2025, cancer remains a significant health concern worldwide.",
+    "Relevant Docs": "1. Non-communicable diseases in the world over the past ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11484412/\n2. The Heart of the World - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC10809869/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The statement that cancer has emerged as a leading cause of death worldwide is supported by the knowledge base, which states cancer is the first or second leading cause of premature death in most countries. The claim that NCDs accounted for 72% of all deaths globally in 2016 is also directly supported by multiple knowledge base excerpts.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606514/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6438409/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Non-communicable diseases (NCDs) accounted for 72% of global deaths in 2016, with cancer being a leading cause of death worldwide",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Non-communicable diseases (NCDs) accounted f...",
+    "Summary (Tavily Answer)": "Non-communicable diseases (NCDs) caused 72% of global deaths in 2016, with cancer being a major cause. Cancer mortality trends show increasing inequalities linked to socioeconomic status.",
+    "Relevant Docs": "1. Non-communicable diseases in the world over the past ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11484412/\n2. Cancer mortality 1981–2016 and contribution of specific ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC7611600/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The optimized assertion states that Non-communicable diseases (NCDs) accounted for 72% of global deaths in 2016, with cancer being a leading cause of death worldwide. The TAVILY_SUMMARY and a knowledge base excerpt from a related item (Item 1) confirm NCDs accounted for 72% of global deaths in 2016. While one excerpt in this item mentions 71%, the 72% figure is consistently supported across multiple sources. Cancer's status as a leading cause of death is also well-supported.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606514/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747415/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 2,\n    \"original_statement\": \"Of the 15",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 2,\n    \"original_statement\": \"Of the 15",
+    "Summary (Tavily Answer)": "The 15-item geriatric depression scale is a useful tool for assessing depression in older adults. Two relevant studies were retrieved from PubMed. The current date is 2025-10-14.",
+    "Relevant Docs": "1. Usefulness of the 15-item geriatric depression scale (GDS- ... - https://pubmed.ncbi.nlm.nih.gov/31470180/\n2. The Importance of the 15-lead Versus 12-lead ECG ... - https://pubmed.ncbi.nlm.nih.gov/31213741/",
+    "Final Verdict": "Flagged for Review",
+    "Full Analysis": "The assertion is an incomplete sentence fragment ('Of the 15') and lacks sufficient context to be evaluated against the provided evidence. The knowledge base excerpts contain the number '15' in various statistical contexts, but none directly relate to the fragment in a meaningful way to verify its accuracy.",
+    "Citations": []
+  },
+  {
+    "Statement": "8%) were due to cancer",
+    "Assertion": "8%) were due to cancer",
+    "Summary (Tavily Answer)": "8% of cancers in developed countries are due to infections. Smoking causes about one-fifth of global cancer deaths. Lung cancer is the most common cancer from smoking.",
+    "Relevant Docs": "1. Environmental Factors Inducing Human Cancers - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC3521879/\n2. The global burden of cancer: priorities for prevention - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC2802672/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion states '8%) were due to cancer'. The provided TAVILY_SUMMARY mentions '8% of cancers in developed countries are due to infections,' which is a different claim about the cause of cancer, not the percentage of deaths due to cancer. Furthermore, relevant knowledge base excerpts from Item 1 indicate that 29.8% of premature NCD deaths were due to cancer, not 8%. The current knowledge base excerpts do not support the 8% figure for cancer.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606514/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"4",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"4",
+    "Summary (Tavily Answer)": "The assertion \"4\" is testable. The predictive accuracy of curated biological pathways is 95%. The data supports the evaluation of dynamic treatment regimes in advanced prostate cancer.",
+    "Relevant Docs": "1. Interpreting Randomized Controlled Trials - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC10571666/\n2. Evaluating the predictive accuracy of curated biological ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9216552/",
+    "Final Verdict": "Flagged for Review",
+    "Full Analysis": "The assertion is an incomplete fragment ('4') and lacks sufficient context to be evaluated. The provided knowledge base explicitly states 'No relevant information found in knowledge base' for this item.",
+    "Citations": []
+  },
+  {
+    "Statement": "2 million premature non-communicable disease (NCD) deaths were caused by cancer",
+    "Assertion": "2 million premature non-communicable disease (NCD) deaths were caused by cancer",
+    "Summary (Tavily Answer)": "Cancer causes approximately 9 million premature non-communicable disease deaths annually. It is a leading cause of premature mortality worldwide. Cancer deaths are significant contributors to the global burden of non-communicable diseases.",
+    "Relevant Docs": "1. Investigation of non-communicable diseases prevalence, ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11337899/\n2. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The TAVILY_SUMMARY states that cancer causes approximately 9 million premature non-communicable disease deaths annually, which contradicts the assertion of 2 million. KNOWLEDGE_BASE_EXCERPTS mention 2 million deaths in 2000 related to HIV/AIDS (a communicable disease), not cancer-specific premature NCD deaths.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747415/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 3,\n    \"original_statement\": \"Each year, 5 million people in low- and middle-income countries die from cancer, representing about 10 percent of the 50 million deaths in those countries",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 3,\n    \"original_statement\": \"Each year, 5 million people in low- ...",
+    "Summary (Tavily Answer)": "Each year, 5 million people in low- and middle-income countries die from cancer, accounting for about 10 percent of total deaths. Cancer rates vary widely, with higher rates in some regions compared to others. This burden highlights the need for targeted health interventions.",
+    "Relevant Docs": "1. The Cancer Burden in Low- and Middle-Income Countries ... - https://www.ncbi.nlm.nih.gov/books/NBK54028/\n2. Table 2.6, Deaths by Cause in Low- and Middle-Income ... - https://www.ncbi.nlm.nih.gov/books/NBK525236/table/pt1.ch2.sec4.table6/?report=objectonly",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The KNOWLEDGE_BASE_EXCERPTS explicitly state: 'Each year, 5 million people in low- and middle-income countries (LMCs) die from cancer, about 10 percent of the 50 million deaths in those countries.' This directly supports the assertion.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK54028/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Annually, 5 million individuals in low- and middle-income countries die from cancer, constituting approximately 10% of the 50 million deaths in those nations",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Annually, 5 million individuals in low- and ...",
+    "Summary (Tavily Answer)": "Annually, around 5 million people in low- and middle-income countries die from cancer, accounting for about 10% of global cancer deaths. This burden is rising due to aging populations and risk factors like tobacco and pollution. The economic cost of cancer is higher in high-income countries.",
+    "Relevant Docs": "1. The Cancer Burden in Low- and Middle-Income Countries ... - https://www.ncbi.nlm.nih.gov/books/NBK54028/\n2. Estimates and Projections of the Global Economic Cost ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9951101/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The KNOWLEDGE_BASE_EXCERPTS explicitly state: 'Each year, 5 million people in low- and middle-income countries (LMCs) die from cancer, about 10 percent of the 50 million deaths in those countries.' This directly supports the assertion.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK54028/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 4,\n    \"original_statement\": \"The most common cancer worldwide is lung cancer with 2",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 4,\n    \"original_statement\": \"The most common cancer worldwide is ...",
+    "Summary (Tavily Answer)": "Lung cancer is the most common cancer worldwide. It is the leading cause of cancer-related deaths globally. Tobacco smoking is the primary cause.",
+    "Relevant Docs": "1. Epidemiology of lung cancer - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC8063897/\n2. Global trends in cancer incidence and mortality - https://www.ncbi.nlm.nih.gov/books/NBK606460/",
+    "Final Verdict": "Flagged for Review",
+    "Full Analysis": "The assertion 'The most common cancer worldwide is lung cancer with 2' is incomplete. While the TAVILY_SUMMARY states lung cancer is the most common worldwide, the KNOWLEDGE_BASE_EXCERPTS provide conflicting information depending on the year and sex. Chunk 1 (2002 data) supports lung cancer as most common for males and females combined, but Chunk 2 (2022 data) indicates prostate cancer for males and breast cancer for females as leading types in most regions.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1994799/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12198859/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Lung cancer was the most common cancer globally in 2018, with 2",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Lung cancer was the most common cancer globa...",
+    "Summary (Tavily Answer)": "In 2018, lung cancer was the most common cancer globally, with 2.09 million new cases. It was also the leading cause of cancer mortality worldwide, accounting for 1.76 million deaths.",
+    "Relevant Docs": "1. Epidemiology of lung cancer - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC8063897/\n2. Current Cancer Epidemiology - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC7310786/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY explicitly states: 'In 2018, lung cancer was the most common cancer globally, with 2.09 million new cases.' This directly supports the assertion, completing the implied number. The KNOWLEDGE_BASE_EXCERPTS do not contain 2018 data to contradict this.",
+    "Citations": []
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 5,\n    \"original_statement\": \"The global cancer burden continues to demonstrate significant variation by development level and geographic region",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 5,\n    \"original_statement\": \"The global cancer burden continues t...",
+    "Summary (Tavily Answer)": "The global cancer burden varies significantly by development level and region, with North America and Europe having higher incidence rates. Asia accounts for nearly half of global cancer cases and deaths. Recent trends show progress in cancer control but disparities remain.",
+    "Relevant Docs": "1. Global Burden of Cancer - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC1994799/\n2. Comparative study of cancer profiles between 2020 and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11390618/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY and KNOWLEDGE_BASE_EXCERPTS consistently confirm that the global cancer burden varies significantly by development level and geographic region. The excerpts mention 'disparities in cancer burden... focusing on overall incidence as well as variations by gender and geographic region' and that GLOBOCAN 2022 provides analyses stratified by 'geographic region, and economic levels based on the Human Development Index (HDI)'.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12198859/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8902436/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Global cancer burden exhibits significant variation based on development level and geographic region",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Global cancer burden exhibits significant va...",
+    "Summary (Tavily Answer)": "Global cancer burden varies significantly by development level and geographic region, with high-income areas showing higher rates and lower-income regions experiencing lower rates. Risk factors contribute to a substantial portion of global cancer burden. The burden is increasing, especially in developing countries.",
+    "Relevant Docs": "1. Global burden of cancer and associated risk factors in 204 ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11607901/\n2. The global burden of cancer: priorities for prevention - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC2802672/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "Both the TAVILY_SUMMARY and KNOWLEDGE_BASE_EXCERPTS confirm that the global cancer burden exhibits significant variation based on development level and geographic region. The excerpts state that GLOBOCAN 2022 includes 'subgroup analyses stratified by gender, geographic region, and economic levels based on the Human Development Index (HDI)' and that 'Epidemiological data and variations in cancer types differ across global regions,' providing examples of different cancer incidences in higher vs. lower HDI countries.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12198859/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11607901/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 6,\n    \"original_statement\": \"In 2018, 45% of the estimated new cancer cases occurred in countries with very high HDI, compared with 36%, 16%, and 4% in countries with high, medium, and low HDI, respectively",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 6,\n    \"original_statement\": \"In 2018, 45% of the estimated new ca...",
+    "Summary (Tavily Answer)": "In 2018, 45% of new cancer cases were in countries with very high HDI. High HDI countries had 36%, medium 16%, and low HDI countries had 4%. The greatest number of cancer deaths occurred in high HDI countries.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. good or bad news from the 2018 Global Cancer Statistics? - https://pmc.ncbi.nlm.nih.gov/articles/PMC6487510/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The KNOWLEDGE_BASE_EXCERPTS directly state: 'In 2018, 45% of the estimated new cancer cases occurred in countries with very high HDI, compared with 36%, 16%, and 4% in countries with high, medium, and low HDI, respectively.' This precisely matches the assertion.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"In 2018, new cancer cases by HDI were: 45% in very high, 36% in high, 16% in medium, and 4% in low HDI countries",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"In 2018, new cancer cases by HDI were: 45% i...",
+    "Summary (Tavily Answer)": "In 2018, 45% of new cancer cases were in very high HDI countries, 36% in high, 16% in medium, and 4% in low HDI countries. This distribution shows a clear correlation between HDI levels and cancer incidence.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. Worldwide incidence and mortality of ovarian cancer ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC8283651/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY explicitly states the percentages for new cancer cases by HDI in 2018: 45% in very high, 36% in high, 16% in medium, and 4% in low HDI countries. This information is also directly supported by the KNOWLEDGE_BASE_EXCERPTS provided for Item 3 (which is from the same source as the relevant docs for this item).",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 7,\n    \"original_statement\": \"The distribution of cancer types varies significantly by development level:\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Cancer type distribution varies significantly according to a country's development level",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 7,\n    \"original_statement\": \"The distribution of cancer types var...",
+    "Summary (Tavily Answer)": "Cancer type distribution varies significantly by a country's development level. Higher HDI countries see more lung, prostate, and colorectal cancers. Lower HDI countries have higher incidences of prostate, lung, and oral cavity cancers.",
+    "Relevant Docs": "1. Global burden of cancer and associated risk factors in 204 ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11607901/\n2. Relationships between cancer pattern, country income and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC4558762/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY confirms that 'Cancer type distribution varies significantly by a country's development level.' The KNOWLEDGE_BASE_EXCERPTS further elaborate, stating 'Cancer profiles by HDI level differ' and providing specific examples of how leading cancer types vary between low/medium HDI tiers (e.g., cervical cancer) and high/very high HDI tiers (e.g., lung, breast, colorectal cancer).",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6487510/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 8,\n    \"original_statement\": \"In countries with low HDI, there is a high residual burden of infection- and poverty-related cancers, where cancers of the cervix, liver, and oesophagus are leading cancers, compared with countries with high or very high HDI, where the most frequent cancers are those of the prostate, breast, colorectum, and lung",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 8,\n    \"original_statement\": \"In countries with low HDI, there is ...",
+    "Summary (Tavily Answer)": "In countries with low HDI, infection- and poverty-related cancers like cervix, liver, and oesophagus are common. In high HDI countries, prostate, breast, colorectum, and lung cancers are more frequent. These differences highlight global cancer disparities.",
+    "Relevant Docs": "1. Social inequalities in cancer between countries - https://www.ncbi.nlm.nih.gov/books/NBK566196/\n2. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion accurately states the leading cancer types in low HDI countries (cervix, liver, oesophagus) and high/very high HDI countries (prostate, breast, colorectum, lung), which is directly supported by the provided knowledge base excerpt.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK566196/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Low HDI countries have high burdens of infection- and poverty-related cancers (cervix, liver, oesophagus), while high/very high HDI countries show higher incidence of prostate, breast, colorectum, and lung cancers",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Low HDI countries have high burdens of infec...",
+    "Summary (Tavily Answer)": "Low HDI countries have high rates of infection- and poverty-related cancers, while high HDI countries show higher incidence of prostate, breast, colorectal, and lung cancers. This pattern reflects lifestyle and economic transitions.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. Socioeconomic inequalities in cancer incidence and mortality - https://pubmed.ncbi.nlm.nih.gov/38616547/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion correctly describes the cancer burden in low HDI countries (infection- and poverty-related cancers like cervix, liver, oesophagus) and high/very high HDI countries (prostate, breast, colorectum, lung cancers), which is explicitly stated in the knowledge base excerpt.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK566196/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 9,\n    \"original_statement\": \"The greatest number of cancer deaths occurred in countries with high HDI, driven by the 2",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 9,\n    \"original_statement\": \"The greatest number of cancer deaths...",
+    "Summary (Tavily Answer)": "The greatest number of cancer deaths occurred in countries with high HDI, primarily driven by lung, breast, and colorectal cancers. Prostate cancer led in low HDI countries, while cervical cancer was most common in low HDI regions. Lung cancer was the leading cause of cancer mortality in medium, high, and very high HDI tiers.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. Global burden of cancer and associated risk factors in 204 ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11607901/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The original statement, from which the assertion is derived, claims the greatest number of cancer deaths was 'driven by the 2'. The evidence clarifies this should be 'driven by the 2.9 million cancer deaths that occurred in China'. Therefore, the original statement contains an incomplete and factually misleading number, rendering the assertion (which refers to this statement) incorrect.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Countries with high Human Development Index (HDI) experienced the greatest number of cancer deaths, primarily driven by 2",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Countries with high Human Development Index ...",
+    "Summary (Tavily Answer)": "Countries with high Human Development Index (HDI) have the highest cancer death rates, driven by advanced healthcare and lifestyle factors. This trend is evident in data from 2018.",
+    "Relevant Docs": "1. Cancer incidence and mortality and risk factors in member ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9132358/\n2. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The original statement, from which the assertion is derived, claims the greatest number of cancer deaths was 'primarily driven by 2'. The evidence clarifies this should be 'driven by the 2.9 million cancer deaths that occurred in China'. Therefore, the original statement contains an incomplete and factually misleading number, rendering the assertion (which refers to this statement) incorrect.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 10,\n    \"original_statement\": \"However, mortality-to-incidence ratios vary substantially by development level, with lower-resource countries experiencing poorer outcomes despite lower incidence rates",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 10,\n    \"original_statement\": \"However, mortality-to-incidence rat...",
+    "Summary (Tavily Answer)": "Mortality-to-incidence ratios differ greatly by development level, with poorer outcomes in lower-resource countries despite lower incidence rates. Treatment effectiveness is lower, leading to worse survival outcomes. Higher case fatalities occur in lower-income countries.",
+    "Relevant Docs": "1. Cancer survivorship in low- and middle-income countries - https://pmc.ncbi.nlm.nih.gov/articles/PMC12307438/\n2. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion that mortality-to-incidence ratios vary substantially by development level, with lower-resource countries experiencing poorer outcomes despite lower incidence rates, is strongly supported by the evidence. The knowledge base explicitly states that MIRs are higher in lower HDI countries and that higher case fatalities in low/medium HDI countries relate to poorer survival prospects despite lower incidence rates.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3752559/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Mortality-to-incidence ratios for cancer vary by development level, with lower-resource countries demonstrating poorer outcomes despite lower cancer incidence rates",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Mortality-to-incidence ratios for cancer var...",
+    "Summary (Tavily Answer)": "Mortality-to-incidence ratios for cancer are higher in lower-resource countries despite lower incidence rates. Cancer outcomes are poorer in these countries. This trend is evident in global cancer burden data.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. The Cancer Burden in Low- and Middle-Income Countries ... - https://www.ncbi.nlm.nih.gov/books/NBK54028/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is supported by the evidence. The TAVILY_SUMMARY explicitly states that mortality-to-incidence ratios (MIRs) for cancer are higher in lower-resource countries despite lower incidence rates, indicating poorer outcomes. KNOWLEDGE_BASE_EXCERPTS (Chunk 2) further confirms an inverse correlation between the Human Development Index (HDI) and MIRs, showing that countries with lower HDI (lower-resource) tend to have higher MIRs for gastrointestinal cancers, signifying poorer outcomes.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3752559/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK54028/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 11,\n    \"original_statement\": \"In the USA and other high-income countries, declines in smoking prevalence have resulted in substantial decreases in incidence rates of lung cancer and laryngeal cancer",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 11,\n    \"original_statement\": \"In the USA and other high-income co...",
+    "Summary (Tavily Answer)": "Smoking declines in the USA and other high-income countries have led to reduced lung and laryngeal cancer rates. This trend correlates with significant drops in smoking prevalence over decades. These findings are consistent with epidemiological studies.",
+    "Relevant Docs": "1. Tobacco, alcohol use, and risks of laryngeal and lung ... - https://pubmed.ncbi.nlm.nih.gov/9328195/\n2. Divergent Patterns of Smoking Across High-Income Nations - https://www.ncbi.nlm.nih.gov/books/NBK62585/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is supported by the evidence. The TAVILY_SUMMARY directly states that smoking declines in the USA and other high-income countries have led to reduced lung and laryngeal cancer rates. KNOWLEDGE_BASE_EXCERPTS (Chunk 1) indicates a decline in lung cancer deaths attributed to tobacco use in high-income countries due to declining smoking prevalence. Chunks 2 and 3 further establish that high-income countries have seen considerable decreases in smoking prevalence, and lung cancer mortality trends generally follow these historical smoking prevalence trends.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11447277/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4549470/",
+      "https://pubmed.ncbi.nlm.nih.gov/9328195/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK62585/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Declines in smoking prevalence in the USA and other high-income countries have led to substantial decreases in lung cancer and laryngeal cancer incidence rates",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Declines in smoking prevalence in the USA an...",
+    "Summary (Tavily Answer)": "Smoking declines in high-income countries have led to significant drops in lung cancer and laryngeal cancer rates. This trend is evident in the USA and other wealthy regions. Tobacco-related cancer deaths remain high globally.",
+    "Relevant Docs": "1. [Box], Fundamentals - World Cancer Report - https://www.ncbi.nlm.nih.gov/books/NBK606465/box/Ba/?report=objectonly\n2. Tobacco products - World Cancer Report - https://www.ncbi.nlm.nih.gov/books/NBK606465/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is supported by the evidence. The TAVILY_SUMMARY directly states that smoking declines in high-income countries have led to significant drops in lung cancer and laryngeal cancer rates. KNOWLEDGE_BASE_EXCERPTS (Chunk 3) mentions that the percentage of lung-cancer deaths attributed to tobacco use in high-income countries has declined due to declining smoking prevalence. Chunks 1 and 2 further confirm that high-income countries have experienced considerable decreases in smoking prevalence, and lung cancer mortality trends correlate with these declines.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4549470/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11447277/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK606465/box/Ba/?report=objectonly",
+      "https://www.ncbi.nlm.nih.gov/books/NBK606465/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 12,\n    \"original_statement\": \"Elsewhere, and especially in low- and middle-income countries, the cancer burden from smoking continues to increase as a result of population growth and the ageing of smokers",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 12,\n    \"original_statement\": \"Elsewhere, and especially in low- a...",
+    "Summary (Tavily Answer)": "The cancer burden from smoking continues to rise in low- and middle-income countries due to population growth and aging smokers. Tobacco smoking is linked to multiple cancers, with lung cancer being the most recognized. The risk of cancer increases even with low smoking doses.",
+    "Relevant Docs": "1. Global burden of cancers attributable to tobacco smoking ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9971393/\n2. Smoking trajectory and cancer risk: A population-based ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9413414/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is strongly supported by the evidence. The TAVILY_SUMMARY explicitly states that the cancer burden from smoking continues to rise in low- and middle-income countries due to population growth and aging smokers. KNOWLEDGE_BASE_EXCERPTS (Chunks 1 and 2) project that tobacco consumption will rise in most low- and medium-resource countries and specifically note that millions of young cigarette smokers in China (a large developing country) are aging, leading to greater future risks of smoking-related cancers.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2802672/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9971393/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9413414/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"In low- and middle-income countries, the cancer burden attributed to smoking is rising due to population growth and an aging smoker demographic",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"In low- and middle-income countries, the can...",
+    "Summary (Tavily Answer)": "The cancer burden from smoking is rising in low- and middle-income countries due to population growth and aging smokers. Smoking is a major risk factor for various cancers globally. The trend is significant in these countries.",
+    "Relevant Docs": "1. Global burden of cancers attributable to tobacco smoking ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9971393/\n2. Global, regional, and national burden of cancers ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9249976/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is supported by the TAVILY_SUMMARY, which explicitly states that the cancer burden from smoking is rising in low- and middle-income countries due to population growth and aging smokers. While the provided KNOWLEDGE_BASE_EXCERPTS for this item discuss the general cancer burden in LMICs, they do not explicitly detail the rising trend attributed to smoking due to population growth and aging smokers. However, the TAVILY_SUMMARY is part of the provided evidence and directly confirms the assertion, and the excerpts do not contradict it.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK54028/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9971393/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9249976/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 13,\n    \"original_statement\": \"The majority of cancer cases globally now occur in LMIC, and 65% of cancer deaths worldwide occur in these countries",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 13,\n    \"original_statement\": \"The majority of cancer cases global...",
+    "Summary (Tavily Answer)": "The majority of cancer cases and deaths now occur in low- and middle-income countries. About 65% of global cancer deaths happen in these countries. Cancer incidence is rising due to population growth and increased life expectancy.",
+    "Relevant Docs": "1. The Cancer Burden in Low- and Middle-Income Countries ... - https://www.ncbi.nlm.nih.gov/books/NBK54028/\n2. High-burden cancers in middle-income countries (MICs) - https://pmc.ncbi.nlm.nih.gov/articles/PMC8639660/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion that the majority of cancer cases globally occur in LMICs is contradicted by evidence. KNOWLEDGE_BASE_EXCERPTS for a similar assertion (Item 2) explicitly state, 'Although the overall incidence of cancer is lower in LMICs compared with high-income countries (HICs).' Additionally, it notes that cancer incidence is highest in North America for both men and women. While the 65% death figure is not directly contradicted, the 'majority of cases' claim is incorrect.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6452918/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK54028/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Low- and Middle-Income Countries (LMICs) account for the majority of global cancer cases and 65% of worldwide cancer deaths",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Low- and Middle-Income Countries (LMICs) acc...",
+    "Summary (Tavily Answer)": "Low- and middle-income countries account for the majority of global cancer cases and 65% of worldwide cancer deaths. They bear a significant portion of the global cancer burden despite having a lower share of economic costs. This highlights disparities in cancer care and treatment access.",
+    "Relevant Docs": "1. The Cancer Burden in Low- and Middle-Income Countries ... - https://www.ncbi.nlm.nih.gov/books/NBK54028/\n2. Estimates and Projections of the Global Economic Cost ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9951101/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion that Low- and Middle-Income Countries (LMICs) account for the majority of global cancer cases is incorrect. KNOWLEDGE_BASE_EXCERPTS explicitly state, 'Although the overall incidence of cancer is lower in LMICs compared with high-income countries (HICs).' Furthermore, it is noted that cancer incidence is highest in North America for both men and women. While the KBE mentions that total cancer-related mortality is significantly higher in LMICs, the specific figure of 65% is not confirmed, and the claim about the majority of cases is directly contradicted.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6452918/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK54028/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 14,\n    \"original_statement\": \"These countries face a distinct cancer profile characterized by:\",\n    \"is_testable\": false,\n    \"optimized_assertion\": \"\"\n  },\n  {\n    \"sentence_number\": 15,\n    \"original_statement\": \"In countries with medium HDI, there is still a large burden of infection-related cancers, including cancers of the stomach, liver, and oesophagus",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 14,\n    \"original_statement\": \"These countries face a distinct can...",
+    "Summary (Tavily Answer)": "Countries with medium HDI still have a significant burden of infection-related cancers, including stomach, liver, and esophageal cancers. These cancers are prevalent due to persistent infections. Lung, breast, and colorectal cancers are more common in high HDI countries.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. Comparative study of cancer profiles between 2020 and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11390618/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is directly supported by the KNOWLEDGE_BASE_EXCERPTS, which state: 'In countries with medium HDI, there is still a large burden of infection-related cancers, including cancers of the stomach, liver, and oesophagus.'",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK566196/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Countries with medium Human Development Index (HDI) experience a significant burden of infection-related cancers, such as stomach, liver, and oesophagus cancers",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Countries with medium Human Development Inde...",
+    "Summary (Tavily Answer)": "Countries with medium Human Development Index (HDI) experience significant infection-related cancers like stomach, liver, and oesophagus. These cancers are common in countries undergoing social and economic transitions. High HDI countries see more lung, breast, and colorectal cancers.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. Global Burden of 5 Major Types Of Gastrointestinal Cancer - https://pmc.ncbi.nlm.nih.gov/articles/PMC8630546/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is directly supported by the KNOWLEDGE_BASE_EXCERPTS, which state: 'In countries with medium HDI, there is still a large burden of infection-related cancers, including cancers of the stomach, liver, and oesophagus.'",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK566196/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 16,\n    \"original_statement\": \"In 2012, the proportion of new cancer cases attributable to infectious agents was 25",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 16,\n    \"original_statement\": \"In 2012, the proportion of new canc...",
+    "Summary (Tavily Answer)": "In 2012, 15% of new cancer cases were attributable to infections. The most significant infectious agents were _Helicobacter pylori_ and HPV. This proportion varies by region.",
+    "Relevant Docs": "1. Overview of virus and cancer relationships. Position paper - https://pmc.ncbi.nlm.nih.gov/articles/PMC8638760/\n2. Infectious agents - World Cancer Report - https://www.ncbi.nlm.nih.gov/books/NBK606494/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion that the proportion of new cancer cases attributable to infectious agents was 25 (presumably 25%) in 2012 is incorrect as a global figure. KNOWLEDGE_BASE_EXCERPTS state that 'In 2012, approximately 15% of new cancer cases worldwide were attributable to infections.' While 25% was the attributable fraction for the 'low HDI tier,' the assertion does not specify a tier, implying a global proportion.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"In 2012, the percentage of new cancer cases attributable to infectious agents by HDI was: 25",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"In 2012, the percentage of new cancer cases ...",
+    "Summary (Tavily Answer)": "In 2012, 25% of new cancer cases in low HDI tier were attributable to infectious agents. This figure was based on global cancer data from that year.",
+    "Relevant Docs": "1. Transitions in human development and the global cancer ... - https://www.ncbi.nlm.nih.gov/books/NBK606511/\n2. Epidemiological science and cancer control - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC6142858/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion states 'the percentage of new cancer cases attributable to infectious agents by HDI was: 25'. The evidence specifies that 25% was the attributable fraction for the *low HDI tier* in 2012, and provides different percentages for other HDI tiers (22% for medium, 13% for high, and 8% for very high). The assertion is incomplete and misleading without specifying the HDI tier.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606511/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 17,\n    \"original_statement\": \"The incidence of colon and rectal cancers varies about 25-fold from the high-income and high incidence areas (North America, Australia and New Zealand, Western Europe, and Japan) to Africa and Asia, where incidence is lowest",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 17,\n    \"original_statement\": \"The incidence of colon and rectal c...",
+    "Summary (Tavily Answer)": "Colon and rectal cancer incidence varies greatly worldwide, highest in North America, Australia, Western Europe, and Japan, and lowest in Africa and Asia. The incidence rate is rising in developing nations. The global burden of colorectal cancer has declined in high-income regions, but continues to rise elsewhere.",
+    "Relevant Docs": "1. incidence, mortality, survival, and risk factors - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC6791134/\n2. Global burden of colon and rectal cancer and attributable ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC12048922/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion claims a '25-fold' variation in colon and rectal cancer incidence. However, the knowledge base explicitly states that 'Overall, CRC incidence is highly variable by region, with up to eight-fold variations between countries.' While the regions of highest and lowest incidence are generally correct, the magnitude of variation (25-fold) is contradicted by the evidence.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6791134/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11870140/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Incidence of colon and rectal cancers shows an approximate 25-fold variation, with highest rates in North America, Australia/New Zealand, Western Europe, and Japan, and lowest in Africa and Asia",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Incidence of colon and rectal cancers shows ...",
+    "Summary (Tavily Answer)": "Colon and rectal cancer rates vary greatly worldwide, with highest rates in North America, Australia/New Zealand, Western Europe, and Japan, and lowest in Africa and Asia. The highest incidence is seen in Hungary and Norway. The variation is approximately 25-fold.",
+    "Relevant Docs": "1. incidence, mortality, survival, and risk factors - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC6791134/\n2. Colorectal Cancer Epidemiology: Incidence, Mortality, ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC2796096/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion claims an 'approximate 25-fold variation' in colon and rectal cancer incidence. The knowledge base states that 'Overall, CRC incidence is highly variable by region, with up to eight-fold variations between countries.' This directly contradicts the 25-fold figure. The identification of regions with highest and lowest rates is generally supported, but the magnitude of variation is incorrect.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6791134/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 18,\n    \"original_statement\": \"Specific regional patterns include:\",\n    \"is_testable\": false,\n    \"optimized_assertion\": \"\"\n  },\n  {\n    \"sentence_number\": 19,\n    \"original_statement\": \"Where rates historically have been low (particularly in Asia), they seem to be rising\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Colorectal cancer incidence rates, historically low in regions like Asia, are currently rising",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 18,\n    \"original_statement\": \"Specific regional patterns include:...",
+    "Summary (Tavily Answer)": "Error: Query is too long. Max query length is 400 characters.",
+    "Relevant Docs": "Error: Query is too long. Max query length is 400 characters.",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The knowledge base states that colorectal cancer incidence is 'rising in several low- and middle-income regions' and 'steadily increasing in formerly low incidence regions'. It also notes that Southern Asia has historically had low incidence rates, supporting the assertion that rates are rising in regions like Asia where they were historically low.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11870140/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630546/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 20,\n    \"original_statement\": \"Breast cancer is increasing in incidence everywhere, but more so where rates historically have been low",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 20,\n    \"original_statement\": \"Breast cancer is increasing in inci...",
+    "Summary (Tavily Answer)": "Breast cancer incidence is rising globally, especially in regions with historically low rates. This trend correlates with lifestyle changes, including increased obesity and reduced physical activity. Improved detection and treatment have lowered mortality rates in developed regions.",
+    "Relevant Docs": "1. Current and future burden of breast cancer - https://pmc.ncbi.nlm.nih.gov/articles/PMC9465273/\n2. The Epidemiology of Breast Cancer - https://www.ncbi.nlm.nih.gov/books/NBK583819/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY explicitly states, 'Breast cancer incidence is rising globally, especially in regions with historically low rates,' which directly supports the assertion. While the KNOWLEDGE_BASE_EXCERPTS for this item discuss the 'growing global breast cancer burden,' the TAVILY_SUMMARY provides the specific comparative detail.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9465273/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Breast cancer incidence is globally increasing, with a more pronounced rise in regions where historical rates were low",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Breast cancer incidence is globally increasi...",
+    "Summary (Tavily Answer)": "Breast cancer incidence is rising globally, especially in regions with historically low rates. Highest rates are in Australia, Western Europe, and North America; lowest in South-Central Asia and parts of Africa. Trends link rising incidence to lifestyle changes.",
+    "Relevant Docs": "1. Current and future burden of breast cancer - https://pmc.ncbi.nlm.nih.gov/articles/PMC9465273/\n2. Global incidence and mortality of breast cancer - https://pmc.ncbi.nlm.nih.gov/articles/PMC7950292/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY explicitly states that breast cancer incidence is rising globally, especially in regions with historically low rates. The KNOWLEDGE_BASE_EXCERPTS further support this by mentioning 'rapid increases that are being experienced in places with large populations such as China and Japan will continue to shift the worldwide burden of this disease towards Asia', implying a rise in regions that previously had lower rates compared to countries like Australia or New Zealand.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9465273/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7950292/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4069805/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 21,\n    \"original_statement\": \"In China, annual increases of 3 to 4 percent are reported\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"China reports annual breast cancer incidence increases of 3% to 4%",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 21,\n    \"original_statement\": \"In China, annual increases of 3 to ...",
+    "Summary (Tavily Answer)": "China reports annual breast cancer incidence increases of 3% to 4%. This trend is consistent with recent studies. The incidence rate ranks first among cancers in women.",
+    "Relevant Docs": "1. Cancer incidence and mortality in China, 2022 - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC11256708/\n2. Breast cancer incidence and mortality in women in China - https://pmc.ncbi.nlm.nih.gov/articles/PMC8330522/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY directly states that 'China reports annual breast cancer incidence increases of 3% to 4%'. While the provided KNOWLEDGE_BASE_EXCERPTS discuss liver cancer or general cancer statistics in China without this specific percentage for breast cancer, the TAVILY_SUMMARY is part of the evidence provided for evaluation and explicitly confirms the assertion.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11256708/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8330522/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 22,\n    \"original_statement\": \"Although it is sixth in incidence worldwide, it is third in mortality, after lung and stomach cancers",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 22,\n    \"original_statement\": \"Although it is sixth in incidence w...",
+    "Summary (Tavily Answer)": "Stomach cancer is third in mortality worldwide, after lung and liver cancers. It ranks fifth in incidence but has poor survival rates. Colorectal cancer is the third most common cancer globally.",
+    "Relevant Docs": "1. Global trends in cancer incidence and mortality - https://www.ncbi.nlm.nih.gov/books/NBK606460/\n2. Global Burden of Cancer - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC1994799/",
+    "Final Verdict": "Flagged for Review",
+    "Full Analysis": "The assertion contains a self-contradictory phrase regarding mortality ('after lung and stomach cancers' for stomach cancer itself). Furthermore, the TAVILY_SUMMARY states stomach cancer is 'fifth in incidence' and 'third in mortality worldwide, after lung and liver cancers'. However, KNOWLEDGE_BASE_EXCERPTS (Chunk 1, 2016 data) indicate stomach cancer was 19th or 14th among leading causes of death, directly contradicting the 'third in mortality' claim. Due to conflicting information and the assertion's internal inconsistency, it is flagged for review.",
+    "Citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK606460/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1994799/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7310786/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630546/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Liver cancer ranks sixth globally in incidence and third in mortality, after lung and stomach cancers",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Liver cancer ranks sixth globally in inciden...",
+    "Summary (Tavily Answer)": "Liver cancer ranks sixth globally in incidence and third in mortality, after lung and stomach cancers. The data confirms this ranking in 2020 and trends in 2022.",
+    "Relevant Docs": "1. Global burden of primary liver cancer in 2020 and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9670241/\n2. Comparative study of cancer profiles between 2020 and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC11390618/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The TAVILY_SUMMARY directly confirms the assertion. Additionally, KNOWLEDGE_BASE_EXCERPTS (Chunk 1, 2, 3) explicitly state: 'According to 2020 estimates, liver cancer is the sixth most commonly diagnosed cancer and the third most common cause of cancer death.' This perfectly matches the assertion.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9670241/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390618/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 23,\n    \"original_statement\": \"With 5-year survival at 5 percent or less even in developed countries\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Liver cancer's 5-year survival rate is 5% or less, even in developed countries",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 23,\n    \"original_statement\": \"With 5-year survival at 5 percent o...",
+    "Summary (Tavily Answer)": "Liver cancer's 5-year survival rate is generally low, often below 10% in developed countries. Recent data shows improvements, but the rate remains low. The prognosis varies significantly by region and stage of diagnosis.",
+    "Relevant Docs": "1. Cause of death and cause-specific mortality for primary ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9013615/\n2. Global burden of primary liver cancer in 2020 and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC9670241/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion states liver cancer's 5-year survival rate is '5% or less'. While the TAVILY_SUMMARY mentions 'often below 10%', KNOWLEDGE_BASE_EXCERPTS (from a document also used in Item 3, Chunk 1: https://pmc.ncbi.nlm.nih.gov/articles/PMC7310786/) state the cumulative 5-year survival for liver cancer is '5–30%'. Furthermore, another excerpt (Chunk 1, 2 of this item: https://pmc.ncbi.nlm.nih.gov/articles/PMC11718493/) shows 'Early stage' liver cancer treated with resection/ablation has a '50–70%' 5-year survival. This contradicts the assertion that it is '5% or less, even in developed countries'.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9013615/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9670241/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11718493/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7310786/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 24,\n    \"original_statement\": \"The ongoing cancer transition includes a reduction in infection-related cancers (for example, stomach and cervical cancer) that is offset by increases in cancers linked to a Westernization of lifestyle (for example, breast, prostate, and colorectal cancer)",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 24,\n    \"original_statement\": \"The ongoing cancer transition inclu...",
+    "Summary (Tavily Answer)": "The cancer transition shows a decline in infection-related cancers but an increase in lifestyle-related cancers. This shift is linked to Westernized lifestyles. The trend is not uniform globally.",
+    "Relevant Docs": "1. The Changing Global Burden of Cancer: Transitions in ... - https://pubmed.ncbi.nlm.nih.gov/26913347/\n2. Global progress against cancer—challenges and ... - https://pmc.ncbi.nlm.nih.gov/articles/PMC3860343/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is directly supported by the knowledge base, which states: 'The ongoing cancer transition includes a reduction in infection-related cancers (for example, stomach and cervical cancer) that is offset by increases in cancers linked to a Westernization of lifestyle (for example, breast, prostate, and colorectal cancer).'",
+    "Citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/26913347/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK343643/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Cancer transition involves reduced infection-related cancers (stomach, cervical) and increased Westernization-linked cancers (breast, prostate, colorectal)",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Cancer transition involves reduced infection...",
+    "Summary (Tavily Answer)": "Cancer transition shows reduced infection-related cancers and increased Westernization-linked cancers. Breast, prostate, and colorectal cancers rise with Western lifestyle. Infection-related cancers like stomach and cervical decline.",
+    "Relevant Docs": "1. The Changing Global Burden of Cancer: Transitions in ... - https://pubmed.ncbi.nlm.nih.gov/26913347/\n2. The Changing Global Burden of Cancer: Transitions in ... - https://www.ncbi.nlm.nih.gov/books/NBK343643/",
+    "Final Verdict": "Correct",
+    "Full Analysis": "The assertion is directly supported by the knowledge base, which states: 'The ongoing cancer transition includes a reduction in infection-related cancers (for example, stomach and cervical cancer) that is offset by increases in cancers linked to a Westernization of lifestyle (for example, breast, prostate, and colorectal cancer).'",
+    "Citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/26913347/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK343643/"
+    ]
+  },
+  {
+    "Statement": "\"\n  },\n  {\n    \"sentence_number\": 25,\n    \"original_statement\": \"A key epidemiological finding is the steady decline in incidence and mortality rates of stomach cancer (predominantly the non-cardia type of stomach cancer) that has consistently been observed over more than five decades across all world regions",
+    "Assertion": "\"\n  },\n  {\n    \"sentence_number\": 25,\n    \"original_statement\": \"A key epidemiological finding is th...",
+    "Summary (Tavily Answer)": "Stomach cancer incidence and mortality rates have steadily declined globally over five decades, primarily affecting the non-cardia type. This decline is attributed to improved living conditions and reduced Helicobacter pylori infection rates. The trend is consistent across all world regions.",
+    "Relevant Docs": "1. Global trends in cancer incidence and mortality - https://www.ncbi.nlm.nih.gov/books/NBK606460/\n2. Burden of Gastric Cancer - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC8859863/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "The assertion claims a 'consistent' decline 'across all world regions'. However, the knowledge base explicitly states: 'Temporal trends show substantial declines in stomach cancer incidence and mortality over the past 50 years in most world regions [7–9]. The exceptions are Southern and Eastern Africa, where rates have remained stable or increased slightly.' This contradicts the 'across all world regions' claim.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11718493/"
+    ]
+  },
+  {
+    "Statement": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Incidence and mortality rates of non-cardia stomach cancer have shown a consistent, steady decline globally for over five decades",
+    "Assertion": "\",\n    \"is_testable\": true,\n    \"optimized_assertion\": \"Incidence and mortality rates of non-cardia ...",
+    "Summary (Tavily Answer)": "Incidence and mortality rates of non-cardia stomach cancer have consistently declined globally over five decades. This decline is attributed to improved living conditions and reduced Helicobacter pylori infection rates. The trend is observed worldwide, though rates vary by region.",
+    "Relevant Docs": "1. Global trends in cancer incidence and mortality - https://www.ncbi.nlm.nih.gov/books/NBK606460/\n2. Burden of Gastric Cancer - PMC - https://pmc.ncbi.nlm.nih.gov/articles/PMC8859863/",
+    "Final Verdict": "Incorrect",
+    "Full Analysis": "While the knowledge base mentions overall declines in gastric cancer, it also states: 'Opposing the overall decreases in gastric cancer incidence and mortality rates, are the recent increases in the incidence of both CGC and cancer of the gastric corpus (a non-cardia subsite), as seen among younger generations, e.g. those aged 25–39 years in the United States.' This contradicts the assertion of a 'consistent, steady decline globally' for non-cardia stomach cancer.",
+    "Citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630546/"
+    ]
+  }
+]
