@@ -1158,8 +1158,8 @@ REQUIREMENTS:
 
 def load_config() -> Config:
     """Load configuration from environment variables"""
-    google_api_key = os.getenv('GEMINI_API_KEY', 'AIzaSyD9WWNdv2onX1giqTqXUp3TABgYISEnUQs')
-    tavily_api_key = os.getenv('TAVILY_API_KEY', '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')
+    google_api_key = os.getenv('GEMINI_API_KEY')
+    tavily_api_key = os.getenv('TAVILY_API_KEY')
     
     if not google_api_key:
         raise ValueError("GEMINI_API_KEY environment variable is required")
