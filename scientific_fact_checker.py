@@ -330,84 +330,8 @@ class ScientificFactChecker:
             import traceback
             traceback.print_exc()
             return []
-    
-    # def _create_extraction_prompt(self, chapter_name: str, content: str) -> str:
-    #     """Create prompt for assertion extraction"""
-    #     return f"""
-    #     # SCIENTIFIC ASSERTION EXTRACTION PROMPT
 
-    #     ## YOUR ROLE
-    #     You are a SCIENTIFIC FACT-CHECKER tasked with extracting ALL verifiable assertions from scientific textbook content for peer-reviewed validation.
-
-    #     ## PRIMARY OBJECTIVE
-    #     EXTRACT MAXIMUM NUMBER of scientifically testable assertions from the provided chapter content. Your goal is COMPREHENSIVE COVERAGE - every sentence must be analyzed and NO SENTENCE should be overlooked.
-
-    #     ## CRITICAL REQUIREMENTS
-    #     - **MANDATORY**: Process EVERY SINGLE SENTENCE in the text
-    #     - **MAXIMIZE EXTRACTION**: Identify as many testable assertions as possible
-    #     - **ZERO OMISSIONS**: Absolutely no sentence should be left unanalyzed
-
-    #     ## TESTABLE ASSERTION DEFINITION
-    #     A testable assertion is ANY statement that can be verified against peer-reviewed scientific sources:
-    #     - Specific factual claims about properties, mechanisms, or relationships
-    #     - Quantitative data or measurements
-    #     - Cause-and-effect relationships
-    #     - Scientific processes or phenomena descriptions
-    #     - Research findings or experimental results
-
-    #     **EXCLUDE ONLY**: Pure definitions, introductory phrases, or entirely subjective opinions
-
-    #     ## ASSERTION OPTIMIZATION FOR SEARCH
-    #     For each testable statement, create an OPTIMIZED ASSERTION that:
-    #     - Contains the key scientific concepts and terminology
-    #     - Uses specific, searchable scientific terms
-    #     - Focuses on the most verifiable claim within the statement
-    #     - Will yield the most relevant peer-reviewed documents when searched
-    #     - Is concise but comprehensive enough for accurate fact-checking
-
-    #     ## EXTRACTION STEPS
-    #     1. **READ**: Process the text sentence by sentence sequentially
-    #     2. **ANALYZE**: Determine if each sentence contains verifiable scientific content
-    #     3. **EXTRACT**: Pull out the complete sentence containing the assertion
-    #     4. **OPTIMIZE**: Create a search-optimized assertion that will find the most relevant documents
-
-    #     ## OUTPUT FORMAT
-    #     Return your results in the following JSON format:
-    #     ```json
-    #     [
-    #     {{
-    #         "sentence_number": 1,
-    #         "original_statement": "EXACT sentence from text",
-    #         "is_testable": true,
-    #         "optimized_assertion": "Search-optimized assertion for finding relevant documents"
-    #     }},
-    #     {{
-    #         "sentence_number": 2,
-    #         "original_statement": "EXACT sentence from text",
-    #         "is_testable": false,
-    #         "optimized_assertion": "Search-optimized assertion for finding relevant documents"
-    #     }}
-    #     ]
-    #     ```
-        
-    #     **CRITICAL JSON REQUIREMENTS:**
-    #     - Use ONLY double quotes (") for strings, NEVER single quotes
-    #     - Use lowercase true/false for boolean values
-    #     - Ensure every object is separated by commas
-    #     - No trailing commas after the last object
-    #     - All property names must be in double quotes
-    #     - Escape any quotes within text content with backslash (\")
-    #     - Ensure the JSON is valid and parseable
-
-    #     ## EXECUTION COMMAND
-    #     **Chapter Title**: {chapter_name}
-
-    #     **Content to Analyze**:
-    #     {content}
-
-    #     BEGIN COMPREHENSIVE SENTENCE-BY-SENTENCE ANALYSIS NOW.
-    #     """
-
+            
     def _create_extraction_prompt(self, chapter_name: str, content: str) -> str:
         """Create prompt for assertion extraction with stricter JSON formatting"""
         return f"""
@@ -1192,8 +1116,8 @@ def main():
         logger.info("Scientific fact checker initialized")
         
         # Step 1: Extract assertions from chapter
-        chapter_path = "./Chapters/Chapter 11_ Cancer Metabolism_ The Warburg Effect and Beyond.md"
-        # chapter_path = "./Chapters/Chapter 02_ Introduction to Cancer_ A Disease of Deregulation-Part2.md"
+        # chapter_path = "./Chapters/Chapter 11_ Cancer Metabolism_ The Warburg Effect and Beyond.md"
+        chapter_path = "./Chapters/Chapter 02_ Introduction to Cancer_ A Disease of Deregulation-Part1.md"
         # chapter_path = "./Chapters/sample_chapter.md"
         assertions = fact_checker.extract_assertions(chapter_path)
         
