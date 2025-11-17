@@ -81,8 +81,8 @@ class ScientificFactChecker:
                 model=model_name,
                 contents=prompt,
                 config=genai.types.GenerateContentConfig(
-                    max_output_tokens=64000,
-                    temperature=0.1,
+                    max_output_tokens=512000,
+                    temperature=1,
                 )
             )
             
@@ -678,8 +678,8 @@ class ScientificFactChecker:
                 model=model_name,
                 contents=prompt,
                 config=genai.types.GenerateContentConfig(
-                    max_output_tokens=64000,
-                    temperature=0.1,
+                    max_output_tokens=512000,
+                    temperature=1,
                 )
             )
             
